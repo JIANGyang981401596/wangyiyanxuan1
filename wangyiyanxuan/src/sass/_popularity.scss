@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+
+#popularity{
+    width: 100%px;
+    height: 618px;
+    padding: 60px 0;
+    background:#f4f0ea;
+}
+
+.popularity-row{
+    width: 1090px;
+    height: 618px;
+    
+    margin: 0 auto;
+}
+
+.popularity-header{
+    width:1090px ;
+    height: 28px;
+    padding-bottom: 20px;
+                  
+           .header-left{
+               width: 395px;
+               height: 28px;
+          
+           }
+           .header-right{
+               width: 100px;
+               height: 18px;
+               float: right;
+           }
+
+              
+}
+
+
+
+.header-left .name{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    float: left;
+    margin-right: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+
+
+.header-table{
+    width: 263px;
+    height: 28px;
+    color: black;
+    line-height: 28px;
+    font-weight: 500;
+    font-size: 14px; 
+    float: left;
+    li{
+        width: 70px;
+        height: 28px;
+        float: left;
+        cursor: pointer;
+        margin-right: 10px;
+        
+    }
+}
+
+.popularity-container{
+     width: 1090px;
+     height: 570px;
+     background: blue;
+}
+
+
+.popularity-populariem{
+    width: 390px;
+    height: 570px;
+    position: relative;
+    background: royalblue;
+    float: left;
+}
+
+
+.container-top{
+    width: 390px;
+    height:340px ;
+    margin-bottom: 18px;
+    padding-top: 20px;
+    position: relative;
+}
+
+
+.popularity-img-1{
+    display: block;
+    margin:0 auto;
+  
+}
+
+.container-top-bottom{
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url(https://yanxuan.nosdn.127.net/5e5ba7f9c3805cc8085368ed41aaff65.png);
+}
+
+.container-top-bottom-le{
+ width: 70px;
+ height: 36px;
+    margin-top: -6px;
+    z-index: 1;
+    padding-left: 8px;
+    padding-right: 14px;
+    float: left;
+    border-top-right-radius: 9px;
+    background: url(https://yanxuan.nosdn.127.net/ced6f7cfbd566e260ea67ec486cb9b60.png?quality=95&type=webp&imageView);
+
+}
+
+.container-top-bottom-le-top{
+    font-size: 12px;
+    height: 15px;
+    margin-top: 5px;
+    text-align: center;
+    color: papayawhip;
+}
+
+.container-top-bottom-le-bottom{
+    font-size: 14px;
+    height: 20px;
+    line-height: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: papayawhip;
+}
+.container-top-bottom{
+    color: papayawhip;
+    float: left;
+    // font-size: 12px;
+   
+    
+
+}
+
+
+
+//
+.container-top .promoLogo{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+
+
+.container-bottom{
+    width: 390px;
+    height: 123px;
+    background: snow;
+}
+
+
+.container-bottom-top{
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.container-bottom-top span{
+    width: 58px;
+    height: 20px;
+    background: #e36844;
+}
+
+
+.container-bottom-center .name{
+      width: 248px;
+      height: 52px;
+      line-height: 26px;
+      max-height: 52px;
+      font-size: 18px;
+      text-align: center;
+      margin: 0 50px;
+}
+.container-bottom-bottom{
+    font-size: 18px;
+    height: 18px;
+    text-align: center;
+}
+
+.container-bottom-bottom span{
+    color: red;
+    text-align: center;
+    margin-left:-50px;
+}
+
+.popularity-left{
+    width: 700px;
+    height: 100%;
+    float: left;
+    background: red;
+    margin: 0;
+}
+.popularity-left ul{
+    width: 100%;
+    height: 100%;
+    li{
+        width: 223px;
+        height: 280px;
+        background: chartreuse;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ip{
+    width: 100%;
+    height: 200px;
+    background: teal;
+}

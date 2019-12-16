@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+      padding: 0;
+      list-style: none;
+}
+#header{
+    height: 176px;
+   
+ 
+ }
+ #setiNav{
+     height: 36px;
+     background: #333;
+ }
+ .setiNav-top{
+     width: 1090px;
+     height: 100%;
+     margin: 0 auto;
+ }
+ .setiNav-top-l{
+           width: 358px;
+           height: 36px;
+           float: left;
+           background: burlywood;
+ }
+ .setiNav-top-r{
+     width: 564.14px;
+     height: 36px;
+     float: right;
+     background:red
+ }
+ .setiNav-botton{
+      height: 140px;
+      width: 100%;
+ }
+ .setiNav-botton-row{
+     width: 1090px;
+     height: 100%;
+     background: yellow;
+     margin: 0 auto;
+ }
