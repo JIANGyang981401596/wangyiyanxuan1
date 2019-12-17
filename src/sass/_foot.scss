@@ -1,0 +1,103 @@
+// 底部
+
+#YXComponentFoot{
+    width: 100%;
+    height: 549px;
+   
+    padding-top: 60px;
+
+
+}
+
+//上面 
+#YXComponentFoot-top{
+    width: 1090px;
+    height: 204px;
+    margin: 0 auto;
+    
+
+}
+
+
+.YXComponentFoot-top-left{
+           width: 363px;
+           height: 204px;
+     float: left;
+     .serviceTel{
+         width: 100%;
+         height: 144px;
+         background: greenyellow;
+         .yx-cp-hd{
+             width: 363px;
+             height: 16px;
+             font-size: 16px;
+             font-weight: 400;
+             margin-bottom: 28px;
+             text-align: center;
+         }
+     }
+}
+
+
+
+
+
+
+
+.YXComponentFoot-top-center{
+    width: 363px;
+    height: 204px;
+    background: hotpink;
+    float: left;
+}
+
+
+
+
+
+.YXComponentFoot-top-right{
+    width: 363px;
+    height: 204px;
+    background: indigo;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//下面  
+
+
+#YXComponentFoot-bottom{
+    width: 1090px;
+    height: 187px;
+    background: red;
+    margin: 0 auto;
+}

@@ -10,7 +10,7 @@
 .newproduct-row{
     width: 1090px;
     height: 510px;
-    background: darkcyan;
+    
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -56,7 +56,7 @@
     width: 265px;
     height: 364px;
     margin-right: 10px;
-    background: springgreen;
+ 
     float: left;
 }
 
@@ -79,4 +79,158 @@
     height: 50px;
     border-radius: 50px;
     opacity: 0.6;
+}
+
+
+.new-floot .new-top{
+     width: 265px;
+     height: 265px;
+     margin-bottom: 8px;
+     background: #f4f4f4;
+}
+
+.new-bootom{
+    width: 265px;
+    height: 91px;
+    text-align: center;
+    font-size: 13px;
+    .new-bootom-t{
+           width: 200px;
+           height: 20px;
+           margin: 0 auto 3px;
+           color: #fff;
+           text-align: center;
+           span{
+               margin-left: 6px;
+               height: 20px;
+               display: inline-block;
+               line-height: 20px;
+               padding: 0 5px;
+               font-size: 12px;
+               background: #e36844;
+                }
+
+          
+           }
+           .name{
+            width: 166px;
+            margin: 0 auto 4px;
+            max-height: 40px;
+            line-height: 20px;
+            display: inline-block;
+            overflow: hidden;
+            text-align: center;
+          
+    }
+
+    .new-bootom-b{
+        padding: 1px 0 9px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #d4282d;
+        height: 26px;
+        width: 265px;
+      }
+}
+
+
+
+#flxedNav{
+    width: 108px;
+    height: 422px;
+    background: white;
+      z-index: 20;
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    border: 1px solid #E2DED6;
+    border-radius: 4px;
+    .firstItem{
+        width: 108px;
+        height: 28px;
+        background: url(http://yanxuan.nosdn.127.net/7c1853dd59b79d823ad3c4f3a0330049.png?imageView&type=webp) no-repeat;
+        font-size: 16px;
+        color: #BB3343;
+        text-align: center;
+        line-height: 38px;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        font-weight: 700;
+        cursor: default;
+        padding: 0;
+        position: relative;
+     
+         span{
+             position: absolute;
+             left: 18px;            
+             width: 8px;
+            border-bottom: 2px solid #BB3343;
+            position: absolute;
+             bottom: 9px;
+             z-index: 1;
+
+         }
+
+         .firstItem-r{
+            position: absolute;
+            bottom: 9px;
+            left: 82px;          
+         }
+    }
+
+    .item{
+        color: #BB3343;
+        width: 108px;
+         height: 36px;
+         padding: 1px 11px 0;
+         text-align: left;
+        position: relative;
+       display: table;
+        cursor: pointer;
+
+        span{
+            display: block;
+            width: 88px;
+             border-bottom: 1px solid #E2DED6;
+            position: absolute;
+            bottom: -1px;
+            left: 11px;
+            z-index: 1;
+        }
+
+        .name{
+        vertical-align: middle;
+        display: table-cell;
+        line-height: 14px;
+        font-size: 12px;
+        padding-left: 36px;
+        }
+        .sideIcon{
+         position: absolute;
+        top: 2px;
+       left: 13px;
+       width: 30px;
+       height: 30px;
+        }
+    }
+}
+
+
+//回到顶部按钮
+
+#fixedtoolGoTop{
+      height: 60px;
+      text-align: center;
+      cursor: pointer;
+     
+      i{
+          width: 24px;
+          height: 15px;
+        display: block;
+        overflow: hidden;
+        font-size: 12px;
+        // margin-left: 41px;
+        margin: 10px 0 10px 41px ;
+        background: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfixedtool-sb35ce57899-796b48a324.png)no-repeat 0px -273px;
+      }
 }

@@ -5,6 +5,9 @@
       padding: 0;
       list-style: none;
 }
+
+
+// 头部
 #header{
     height: 176px;
    
@@ -23,14 +26,124 @@
            width: 358px;
            height: 36px;
            float: left;
-           background: burlywood;
+         
  }
+
+.yx-cp-m-noticeList{
+    background: url(http://yanxuan.nosdn.127.net/d132c2561f18f1149d566a60d05fd9b7.gif) center left no-repeat;
+    margin-left: 2px;
+    overflow: hidden;
+    height: 36px;
+    line-height: 36px;
+    box-sizing: border-box;
+}
+.yx-cp-noticeListUL{
+    top: 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+.yx-cp-noticeItem{
+    padding-left: 26px;
+    height: 36px;
+    box-sizing: border-box;
+    display: list-item;
+    font-size: 12px;
+    cursor: pointer;
+    color: #ccc;
+}
+.yx-cp-noticeTxt{
+    color: #cc9756;
+    text-decoration: underline;
+   
+}
+
+
+
+
+
+
+ 
  .setiNav-top-r{
-     width: 564.14px;
+     width: 471px;
      height: 36px;
      float: right;
-     background:red
  }
+.yx-cp-siteNavItem{
+       width: 564px;
+       height: 36px;
+       li{
+           float: left;
+           color: #ccc;
+           cursor: pointer;
+           margin-left: 10px;
+           position: relative;
+           box-sizing: border-box;
+           line-height: 36px;
+           span{
+            margin-right: 10px;
+            display: inline-block;
+           height: 16px;
+           border-left: 1px solid #5c5c5c;
+           vertical-align: middle;
+           }
+           i{
+               width: 11px;
+               height: 5px;
+               display: inline-block;
+            margin-left: 10px;
+            background:url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s24d0453a5f-dba1cb6952.png?imageView&type=webp) no-repeat 0px -690px;
+           }
+
+         }
+         li:hover {
+             color: white;
+         }
+        
+     
+    }
+
+
+    #Enterprise{
+        display: inline-block;
+    }
+
+    .Enterprise-t{
+        width: 86px;
+        height: 122px;
+        background: red;
+        position: absolute;
+        top: 36px;
+        left: 0;
+        display: none;
+        z-index: 10;
+    }
+
+    .setiNav-top-r .yx-cp-siteNavItem :hover  .Enterprise-t {
+                 
+                display: block;
+                color: white;
+   }
+
+
+
+
+
+
+
+.yx-cp-siteNavItem .last i{
+    width: 7px;
+    height:11px;
+    display: inline-block;
+    background:url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s24d0453a5f-dba1cb6952.png?imageView&type=webp) no-repeat 0px 0px;
+}
+
+
+
+
+
+
+
+ 
  .setiNav-botton{
       height: 140px;
       width: 100%;
@@ -38,6 +151,174 @@
  .setiNav-botton-row{
      width: 1090px;
      height: 100%;
-     background: yellow;
+    
      margin: 0 auto;
+     position: relative;
+     box-sizing: border-box;
+
  }
+
+ .logo{
+     width: 212px;
+     height:60px;
+     position: absolute;
+     top: 24px;
+     left: 0;
+    
+     background:url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s24d0453a5f-dba1cb6952.png?imageView&type=webp) no-repeat 0px -301px ;
+     
+ }
+
+
+//  购物车
+
+.shoppingcart{
+    width: 134px;
+    height:38px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 26px;
+    margin-left: 49px;
+    float: right;
+    z-index: 4;
+    border: 1px solid #CC9756;
+    border-radius: 19px;
+    padding: 8px 0;
+   
+    i{
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-left: 22px;
+        background: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s24d0453a5f-dba1cb6952.png?imageView&type=webp) no-repeat -2px -147px;
+    }
+    span{
+         color: #CC9756;
+         margin-left: 5px;
+         margin-top: -1px;
+         font-size: 14px;
+         box-sizing: border-box;
+         cursor: pointer;
+       padding-bottom: 5px;
+       display: inline-block;
+       
+    }
+    .j-cart-num{
+        width: 19px;
+        height: 19px;
+        margin-left: 10px;
+        display: inline-block;
+        margin-top: -1px;
+        color: #fff;
+        text-align: center;
+        line-height: 20px;
+        z-index: 1;
+        background-position:0 -51px ;
+    
+    }
+}
+
+
+//搜索栏 
+
+.headersearch{
+    position: relative;
+    margin-top: 26px;
+    float: right;
+    width: 532px;
+    height: 36px;
+    box-sizing: border-box;
+    .searchbutton{
+        width: 90px;
+        height: 38px;
+        background-color: #CC9756;
+        border-top-right-radius: 19px;
+        border-bottom-right-radius: 19px;
+        cursor: pointer;
+        float: right;
+        color: #fff;
+        line-height: 38px;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    i{
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        left: 18px;
+        top: 12px;
+        background: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s24d0453a5f-dba1cb6952.png?imageView&type=webp) no-repeat 0px -517px;
+        z-index: 10;
+    }
+
+   
+}
+
+
+.headersearch .searchInput{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: block;
+    height: 32px;
+    line-height: 38px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #CC9756;
+    border-bottom-left-radius: 19px;
+    border-top-left-radius: 19px;
+    font-size: 14px;
+    width: 402px;
+    padding-left: 38px;
+    outline: 0;
+    overflow: hidden;
+}
+
+
+
+//导航栏
+.headernav{
+    width: 1090px;
+    height: 30px;
+    font-weight: 700;
+    position: absolute;
+    height: 30px;
+    bottom: 21px;
+    box-sizing: border-box;
+    li{
+        float: left;
+        margin-top: 27px;
+        padding: 0 26px;
+        font-size: 14px;
+        cursor: pointer;
+       
+    }
+    li:hover{
+        color:#CC9756;
+    }
+}
+
+
+.headernav-row{
+    width: 1202px;
+    height: 405px;
+    position: absolute;
+    top: 51px;
+    left: -56px;
+     background: #fff;
+     color: black;
+
+    z-index: 10;
+    display: none;
+    border-top: 1px solid #ccc;
+    li{
+        width: 124px;
+        float: left;
+    }
+
+}
+.headernav li:hover .headernav-row {
+   display: block;
+}
