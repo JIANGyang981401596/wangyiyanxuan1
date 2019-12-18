@@ -5,6 +5,105 @@
     width: 100%;
     height: 720px;
     padding-top: 70px;
-    padding: 0 0 50px;
-    background: yellow;
+    background:#f4f0ea;
+ 
+   
+    
+    .main{
+         width: 1000px;
+         height: 506px;
+         margin: 0 auto;
+         background: white;
+
+         position: relative;
+         border:  solid #999 1px;
+        
+    }
+    .jx-regBox{
+        width: 994px;
+        height: 500px;
+      
+    }
+}
+
+#regCon{
+    width: 784px;
+    padding: 55px 0 0 49px;
+    float: left;
+     
+      height: 441px;
+      .regCon-yonghu{
+          width: 784px;
+          height: 42px;
+          margin-top: 15px;
+       
+      }
+}
+.regLabel{
+    width: 260px;
+    height: 42px;
+    line-height: 42px;
+    text-align: right;
+    font-size: 16px;
+    padding-right: 30px;
+    float: left;
+}
+
+.regInputBox{
+    height: 42px;
+    width: 480px;
+    float: left;
+    position: relative;
+    .regInput{
+        margin-top: 4px;
+     width: 302px;
+     height: 35px;
+    line-height: 40px;
+    color: #999;
+    border: 1px solid #999;
+    font-size: 16px;
+    border-radius: 4px;
+    }
+
+    span{
+        color: red;
+        font-weight: 700;
+        font-size: 15px;
+    }
+}
+
+.regAccBut{
+    width: 524px;
+    height: 42px;
+   
+    margin: 55px 0 0 291px;
+    .tijiao{
+    width: 302px;
+    height: 42px;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    background: #e10303;
+    cursor: pointer;
+    }
+}
+
+
+#zhuce{
+       width: 200px;
+       height: 60px;
+       position: absolute;
+       top: 22px;
+       left: 446px;
+       font-size: 20px;
+
+}
+
+
+.Click{
+    position: absolute;
+    top: 426px;
+    left:760px;
 }

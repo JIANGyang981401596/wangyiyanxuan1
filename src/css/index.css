@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -486,7 +487,8 @@
     line-height: 20px;
     display: inline-block;
     overflow: hidden;
-    text-align: center; }
+    text-align: center;
+    color: black; }
   .new-bootom .new-bootom-b {
     padding: 1px 0 9px;
     font-size: 13px;
@@ -553,7 +555,8 @@
       display: table-cell;
       line-height: 14px;
       font-size: 12px;
-      padding-left: 36px; }
+      padding-left: 36px;
+      color: black; }
     #flxedNav .item .sideIcon {
       position: absolute;
       top: 2px;
@@ -650,6 +653,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  color: black;
   background: url(https://yanxuan.nosdn.127.net/5e5ba7f9c3805cc8085368ed41aaff65.png); }
 
 .container-top-bottom-le {
@@ -660,6 +664,7 @@
   padding-left: 8px;
   padding-right: 14px;
   float: left;
+  color: black;
   border-top-right-radius: 9px;
   background: url(https://yanxuan.nosdn.127.net/ced6f7cfbd566e260ea67ec486cb9b60.png?quality=95&type=webp&imageView); }
 
@@ -668,7 +673,8 @@
   height: 15px;
   margin-top: 5px;
   text-align: center;
-  color: papayawhip; }
+  color: papayawhip;
+  color: black; }
 
 .container-top-bottom-le-bottom {
   font-size: 14px;
@@ -676,7 +682,8 @@
   line-height: 14px;
   font-weight: 700;
   text-align: center;
-  color: papayawhip; }
+  color: papayawhip;
+  color: black; }
 
 .container-top-bottom {
   color: papayawhip;
@@ -692,7 +699,8 @@
 .container-bottom {
   width: 390px;
   height: 123px;
-  background: snow; }
+  background: snow;
+  color: black; }
 
 .container-bottom-top {
   height: 20px;
@@ -774,7 +782,8 @@
     line-height: 20px;
     display: inline-block;
     text-align: center;
-    overflow: hidden; }
+    overflow: hidden;
+    color: black; }
   .popularity-left-bottom .price {
     font-size: 13px;
     line-height: 13px;
@@ -957,7 +966,8 @@
   display: inline-block;
   box-sizing: border-box;
   padding-top: 14px;
-  font-size: 12px; }
+  font-size: 12px;
+  color: black; }
   #Homelife .subCateList b {
     box-sizing: border-box;
     margin: 0 13px; }
@@ -987,7 +997,8 @@
       height: 8px;
       border-radius: 50%;
       display: inline-block;
-      margin: 0 8px 10px; }
+      margin: 0 8px 10px;
+      color: black; }
 
 .Homelife-banner-left {
   position: absolute;
@@ -1050,7 +1061,8 @@
   .Homelife-bottom-bd h4 {
     margin-top: 6px;
     text-align: center;
-    margin-bottom: 6px; }
+    margin-bottom: 6px;
+    color: black; }
   .Homelife-bottom-bd .price {
     text-align: center; }
     .Homelife-bottom-bd .price span {
@@ -1106,7 +1118,82 @@
   width: 100%;
   height: 720px;
   padding-top: 70px;
-  padding: 0 0 50px;
-  background: yellow; }
+  background: #f4f0ea; }
+  #center .main {
+    width: 1000px;
+    height: 506px;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    border: solid #999 1px; }
+  #center .jx-regBox {
+    width: 994px;
+    height: 500px; }
+
+#regCon {
+  width: 784px;
+  padding: 55px 0 0 49px;
+  float: left;
+  height: 441px; }
+  #regCon .regCon-yonghu {
+    width: 784px;
+    height: 42px;
+    margin-top: 15px; }
+
+.regLabel {
+  width: 260px;
+  height: 42px;
+  line-height: 42px;
+  text-align: right;
+  font-size: 16px;
+  padding-right: 30px;
+  float: left; }
+
+.regInputBox {
+  height: 42px;
+  width: 480px;
+  float: left;
+  position: relative; }
+  .regInputBox .regInput {
+    margin-top: 4px;
+    width: 302px;
+    height: 35px;
+    line-height: 40px;
+    color: #999;
+    border: 1px solid #999;
+    font-size: 16px;
+    border-radius: 4px; }
+  .regInputBox span {
+    color: red;
+    font-weight: 700;
+    font-size: 15px; }
+
+.regAccBut {
+  width: 524px;
+  height: 42px;
+  margin: 55px 0 0 291px; }
+  .regAccBut .tijiao {
+    width: 302px;
+    height: 42px;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    background: #e10303;
+    cursor: pointer; }
+
+#zhuce {
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 22px;
+  left: 446px;
+  font-size: 20px; }
+
+.Click {
+  position: absolute;
+  top: 426px;
+  left: 760px; }
 
 /*# sourceMappingURL=index.css.map */
