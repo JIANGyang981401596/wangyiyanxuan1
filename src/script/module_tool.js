@@ -1,7 +1,7 @@
 
 //取元素
 function $(selector,all ){
-        if(all!=="true")  {
+        if(all!=="all")  {
             return document.querySelector(selector)
         }else{
             return document.querySelectorAll(selector)

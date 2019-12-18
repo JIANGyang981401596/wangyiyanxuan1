@@ -65,7 +65,7 @@ gulp.task('compilesass', function () {
 
 //6.将es6转成es5,再压缩js
 gulp.task('uglifyjs', function () {
-    return gulp.src('src/js/*.js')
+    return gulp.src('src/script/*.js')
         .pipe(babel({ //es6转es5
             presets: ['es2015']
         }))

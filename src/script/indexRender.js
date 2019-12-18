@@ -76,6 +76,9 @@ class Render {
            
            `
         }
+
+
+        
         _this.popularity_left.innerHTML = htmlstr;
 
         })

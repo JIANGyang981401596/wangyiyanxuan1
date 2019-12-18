@@ -5,7 +5,8 @@
   list-style: none; }
 
 #header {
-  height: 176px; }
+  height: 176px;
+  border-bottom: 1px solid #999; }
 
 #setiNav {
   height: 36px;
@@ -264,7 +265,8 @@
   border-radius: 50%;
   opacity: 0.6;
   font-size: 50px;
-  line-height: 50px; }
+  line-height: 50px;
+  border: 0; }
 
 .carousel-r {
   z-index: 9;
@@ -279,7 +281,8 @@
   border-radius: 50%;
   opacity: 0.6;
   font-size: 50px;
-  line-height: 50px; }
+  line-height: 50px;
+  border: none; }
 
 #carousel ul {
   width: 1902px;
@@ -288,23 +291,29 @@
   bottom: 0;
   margin: 0 auto;
   display: block;
-  text-align: center; }
+  text-align: center;
+  z-index: 100; }
   #carousel ul li {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #fff;
     margin: 10px;
     cursor: pointer;
     border: 1px #cecece solid;
-    display: inline-block; }
+    display: inline-block;
+    z-index: 100; }
 
 .picli {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  transition: opacity 1s linear;
+  opacity: 0; }
+
+.bgc {
+  background: white; }
 
 #venue {
   height: 300px;
@@ -1195,5 +1204,67 @@
   position: absolute;
   top: 426px;
   left: 760px; }
+
+#details-center {
+  width: 100%;
+  height: 621px; }
+
+#details-center-row {
+  width: 1090px;
+  height: 621px;
+  margin: 0 auto; }
+
+.delis-top {
+  width: 1090px;
+  height: 52px;
+  font-size: 12px;
+  color: #333;
+  line-height: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  background: springgreen; }
+
+.detailHd {
+  box-sizing: border-box;
+  width: 1090px;
+  height: 569px;
+  background: yellowgreen; }
+
+.m-slide {
+  width: 430px;
+  height: 522px;
+  float: left; }
+  .m-slide .picsWrap {
+    width: 430px;
+    height: 430px;
+    background: violet;
+    cursor: pointer; }
+  .m-slide .list {
+    width: 430px;
+    height: 78px;
+    margin-top: 14px;
+    background: yellow; }
+
+.m-slide-lis {
+  width: 430px;
+  height: 78px;
+  box-sizing: border-box;
+  position: relative; }
+  .m-slide-lis li {
+    width: 78px;
+    height: 78px;
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+    vertical-align: top;
+    background: white;
+    cursor: pointer; }
+    .m-slide-lis li img {
+      width: 100%;
+      height: 100%; }
+
+.m-slide-lis li:first-child {
+  margin-left: 0; }
 
 /*# sourceMappingURL=index.css.map */

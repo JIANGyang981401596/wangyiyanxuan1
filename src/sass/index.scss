@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 
-@import "header";
+@import "header";//头部
 
-@import "carousel";
+@import "carousel";//轮播图
 
-@import "venue";
+@import "venue";  
 @import "newproduct";
 
 @import "popularity";
@@ -16,4 +16,6 @@
 
 
 @import "foot";
-@import "registry";
+@import "registry"; // 注册登录页面
+
+@import "details";//  详情页
