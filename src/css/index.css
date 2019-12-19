@@ -215,7 +215,8 @@
   position: absolute;
   height: 30px;
   bottom: 21px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  color: black; }
   .headernav li {
     float: left;
     margin-top: 27px;
@@ -1222,14 +1223,12 @@
   line-height: 1;
   padding-top: 20px;
   padding-bottom: 20px;
-  box-sizing: border-box;
-  background: springgreen; }
+  box-sizing: border-box; }
 
 .detailHd {
   box-sizing: border-box;
   width: 1090px;
-  height: 569px;
-  background: yellowgreen; }
+  height: 569px; }
 
 .m-slide {
   width: 430px;
@@ -1238,13 +1237,15 @@
   .m-slide .picsWrap {
     width: 430px;
     height: 430px;
-    background: violet;
+    background: #f4f4f4;
     cursor: pointer; }
+    .m-slide .picsWrap img {
+      width: 100%;
+      height: 100%; }
   .m-slide .list {
     width: 430px;
     height: 78px;
-    margin-top: 14px;
-    background: yellow; }
+    margin-top: 14px; }
 
 .m-slide-lis {
   width: 430px;
@@ -1266,5 +1267,187 @@
 
 .m-slide-lis li:first-child {
   margin-left: 0; }
+
+.detailHd .m-info {
+  width: 620px;
+  height: 536px;
+  float: right; }
+  .detailHd .m-info .intro {
+    width: 620px;
+    height: 57px;
+    margin-bottom: 20px;
+    box-sizing: border-box; }
+    .detailHd .m-info .intro .intro-top {
+      width: 620px;
+      height: 20px;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 20px;
+      margin-bottom: 7px;
+      position: relative;
+      box-sizing: border-box;
+      margin-top: 10px; }
+    .detailHd .m-info .intro .intro-bottom {
+      width: 520px;
+      height: 20px; }
+
+.u-formctr {
+  width: 620px;
+  height: 243px;
+  background-color: #dedede;
+  border-top: 1px dotted #dedede;
+  border-bottom: 1px dotted #dedede;
+  padding: 0 0 13px;
+  line-height: 24px;
+  font-size: 13px;
+  position: relative;
+  padding-top: 10px;
+  box-sizing: border-box;
+  padding-left: 5px; }
+  .u-formctr .u-formctr-price {
+    width: 615px;
+    height: 50px;
+    margin-bottom: 5px;
+    overflow: hidden; }
+  .u-formctr span {
+    font-size: 28px;
+    font-weight: 700;
+    margin-right: 1px;
+    margin-top: 13px;
+    margin-left: 0;
+    height: 30px;
+    color: red; }
+  .u-formctr hr {
+    margin: 10px 20px 10px 10px;
+    overflow: hidden;
+    border: none;
+    height: 1px;
+    border-bottom: 1px dashed #d2d2d2; }
+
+.ExlusiveField {
+  width: 488px;
+  height: 56px; }
+
+.m-feedbackBonus {
+  width: 620px;
+  height: 20px; }
+
+.m-feedbackBonus-bt {
+  padding-top: 2px;
+  line-height: 20px;
+  color: #666; }
+
+.intro-bottom-tt {
+  width: 620px;
+  height: 116px;
+  position: relative; }
+  .intro-bottom-tt .f-clearfix {
+    position: absolute;
+    bottom: 0;
+    width: 620px;
+    height: 49px;
+    background: whitesmoke; }
+    .intro-bottom-tt .f-clearfix .f-clearfix-number {
+      width: 200px;
+      height: 39px;
+      margin-top: 10px;
+      margin-left: 10px; }
+
+.f-clearfix-number-left {
+  width: 54px;
+  height: 30px;
+  line-height: 30px;
+  float: left; }
+
+.f-clearfix-number-right {
+  width: 134px;
+  height: 30px;
+  border: 1px solid #ddd;
+  float: left;
+  margin-bottom: 3px; }
+
+.f-clearfix-number-right .u-selnum {
+  width: 134px;
+  height: 32px;
+  border: 1px solid #ddd;
+  display: inline-block; }
+  .f-clearfix-number-right .u-selnum .less {
+    border-right: 1px solid #ddd;
+    position: relative;
+    float: left;
+    width: 35px;
+    height: 30px;
+    line-height: 28px;
+    background: #fff;
+    cursor: pointer; }
+    .f-clearfix-number-right .u-selnum .less .hx {
+      background: #d3d3d3;
+      position: absolute;
+      top: 15px;
+      left: 12px;
+      width: 10px;
+      height: 2px;
+      overflow: hidden; }
+  .f-clearfix-number-right .u-selnum input {
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 0;
+    width: 60px;
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+    position: relative;
+    float: left;
+    height: 30px;
+    line-height: 28px;
+    background: #fff; }
+
+.f-clearfix-number-right .u-selnum .more {
+  height: 30px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-left: 1px solid #ddd;
+  background: #fff;
+  width: 35px;
+  float: right;
+  position: relative; }
+  .f-clearfix-number-right .u-selnum .more .hx {
+    background: #d3d3d3;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    width: 10px;
+    height: 2px;
+    overflow: hidden; }
+  .f-clearfix-number-right .u-selnum .more .sx {
+    background: #d3d3d3;
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    height: 10px;
+    width: 2px; }
+
+.buttom-inp {
+  width: 608px;
+  height: 80px;
+  margin-left: 12px;
+  margin-top: 30px;
+  box-sizing: border-box; }
+
+.buttom-inp-buttom {
+  display: inline-block;
+  width: 168px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #b4a078;
+  border: 1px solid #b4a078;
+  background-color: #f5f3ef; }
+  .buttom-inp-buttom span {
+    width: 168px;
+    color: #333;
+    text-align: center;
+    display: inline-block; }
 
 /*# sourceMappingURL=index.css.map */
