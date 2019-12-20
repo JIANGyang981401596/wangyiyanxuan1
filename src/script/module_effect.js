@@ -170,7 +170,7 @@ class Effect {
 
        let  timer = setInterval(function () {
               move("right", 1)
-        } ,1000)
+        } ,3000)
            
 
       //移入移除
@@ -182,7 +182,7 @@ class Effect {
         _this.carousel.onmouseout=function(){
             timer = setInterval(function () {
                 move("right", 1)
-          } ,1000)
+          } ,3000)
         }
            
     }

@@ -1233,7 +1233,8 @@
 .m-slide {
   width: 430px;
   height: 522px;
-  float: left; }
+  float: left;
+  position: relative; }
   .m-slide .picsWrap {
     width: 430px;
     height: 430px;
@@ -1449,5 +1450,24 @@
     color: #333;
     text-align: center;
     display: inline-block; }
+
+#sf {
+  width: 230px;
+  height: 230px;
+  background: yellow;
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: move; }
+
+#df {
+  width: 430px;
+  height: 430px;
+  position: absolute;
+  right: -450px;
+  border: 1px solid black;
+  z-index: 10;
+  background: #f4f4f4; }
 
 /*# sourceMappingURL=index.css.map */
